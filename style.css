@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'League Spartan', sans-serif;
+}
+
+.navbar{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    border-bottom: 1px black solid;
+    background-color: #F4F2F0;
+    position: fixed;
+    top: 0;
+}
+
+.navbar img{
+    margin-top: 100px;
+}
+
+.navbar a{
+    width: 10vw;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem;
+}
+
+.personaliza{
+    margin-top: 15vh;
+    height: 70vh;
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.personaliza h1{
+    width: 100%;
+}
+
+.personaliza a{
+    background-color:#e8901c;
+	border-radius:50px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:inherit;
+	font-size:2rem;
+    font-weight: bold;
+	padding:10px 31px;
+	text-decoration:none;
+    margin: 20px;
+}
+
+.personaliza a:hover {
+	background-color:#e36124;
+}
+
+.personaliza a:active {
+	position:relative;
+	top:1px;
+}
+
+.personaliza p{
+    font-size: 1.25rem;
+}
+
+.personaliza img{
+    margin-top: 50px;
+}
+
+.about{
+    width: 100%;
+    display: flex;
+}
+
+.info{
+    display:block;
+    width: 60%;
+    text-align: center;
+    background-color: #F4F2F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.info h2{
+    font-size: 3rem;
+}
+
+.info p{
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+.info-image{
+    width: 40%;
+    text-align: center;
+}
+
+.conchu-team{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 25px;
+    margin: 80px 0;
+}
+
+.personas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.persona{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.texto-persona{
+    width: 125px;
+    padding: 20px 10px 40px;
+    margin-top: -50px;
+    background-color: #F4F2F0;
+}
+
+.texto-persona h3{
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+
+.texto-persona p{
+    font-size: 1rem;
+}
+
+.conchu-ico{
+    margin: -40px -100px 0 0;
+}
+
+#como-hacer-tu-pedido{
+    margin: 50px 0;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#como-hacer-tu-pedido img{
+    margin: 1%;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer-text{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-text a{
+    color: #000000;
+    text-decoration: none;
+}
+
+
+/*
+@keyframes shrink {
+    from{
+        margin-top: 100px;
+        scale: 100%;
+    }
+
+    to {
+        margin-top: 25px;
+        scale: 50%;
+    }
+
+}
+
+#nav-logo {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: shrink;
+    animation-range: cover 50%;
+    animation-fill-mode: both;
+}
+*/
+  
